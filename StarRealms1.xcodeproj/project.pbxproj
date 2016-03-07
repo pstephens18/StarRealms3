@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9162C8C71C8CEC1500BCA08D /* adam copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8C11C8CEC1500BCA08D /* adam copy.jpg */; };
+		9162C8CA1C8CEC1500BCA08D /* chase copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8C41C8CEC1500BCA08D /* chase copy.jpg */; };
+		9162C8CB1C8CEC1500BCA08D /* milky-way-1031138_960_720 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8C51C8CEC1500BCA08D /* milky-way-1031138_960_720 copy.jpg */; };
+		9162C8CC1C8CEC1500BCA08D /* preston copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8C61C8CEC1500BCA08D /* preston copy.jpg */; };
+		9162C8CE1C8CECCF00BCA08D /* vader copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8CD1C8CECCF00BCA08D /* vader copy.jpg */; };
+		9162C8D21C8CF1F400BCA08D /* battle blob.png in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8CF1C8CF1F400BCA08D /* battle blob.png */; };
+		9162C8D31C8CF1F400BCA08D /* battle pod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8D01C8CF1F400BCA08D /* battle pod.jpg */; };
+		9162C8D41C8CF1F400BCA08D /* blob ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8D11C8CF1F400BCA08D /* blob ship.png */; };
+		9181F41B1C8A34C100A09112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181F41A1C8A34C100A09112 /* AppDelegate.swift */; };
+		9181F41D1C8A34C100A09112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181F41C1C8A34C100A09112 /* ViewController.swift */; };
+		9181F4201C8A34C100A09112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9181F41E1C8A34C100A09112 /* Main.storyboard */; };
+		9181F4221C8A34C100A09112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9181F4211C8A34C100A09112 /* Assets.xcassets */; };
+		9181F4251C8A34C100A09112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9181F4231C8A34C100A09112 /* LaunchScreen.storyboard */; };
+		9181F4301C8A34C100A09112 /* StarRealms1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181F42F1C8A34C100A09112 /* StarRealms1Tests.swift */; };
+		D05D405C1C8E1F2A0060E000 /* Star Realms Photos in Resources */ = {isa = PBXBuildFile; fileRef = D05D405B1C8E1F2A0060E000 /* Star Realms Photos */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9181F42C1C8A34C100A09112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9181F40F1C8A34C100A09112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9181F4161C8A34C100A09112;
+			remoteInfo = StarRealms1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9162C8C11C8CEC1500BCA08D /* adam copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "adam copy.jpg"; path = "StarRealms1/adam copy.jpg"; sourceTree = "<group>"; };
+		9162C8C41C8CEC1500BCA08D /* chase copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chase copy.jpg"; path = "StarRealms1/chase copy.jpg"; sourceTree = "<group>"; };
+		9162C8C51C8CEC1500BCA08D /* milky-way-1031138_960_720 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "milky-way-1031138_960_720 copy.jpg"; path = "StarRealms1/milky-way-1031138_960_720 copy.jpg"; sourceTree = "<group>"; };
+		9162C8C61C8CEC1500BCA08D /* preston copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "preston copy.jpg"; path = "StarRealms1/preston copy.jpg"; sourceTree = "<group>"; };
+		9162C8CD1C8CECCF00BCA08D /* vader copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vader copy.jpg"; sourceTree = "<group>"; };
+		9162C8CF1C8CF1F400BCA08D /* battle blob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battle blob.png"; sourceTree = "<group>"; };
+		9162C8D01C8CF1F400BCA08D /* battle pod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "battle pod.jpg"; sourceTree = "<group>"; };
+		9162C8D11C8CF1F400BCA08D /* blob ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blob ship.png"; sourceTree = "<group>"; };
+		9181F4171C8A34C100A09112 /* StarRealms1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarRealms1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9181F41A1C8A34C100A09112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9181F41C1C8A34C100A09112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9181F41F1C8A34C100A09112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9181F4211C8A34C100A09112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9181F4241C8A34C100A09112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9181F4261C8A34C100A09112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9181F42B1C8A34C100A09112 /* StarRealms1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarRealms1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9181F42F1C8A34C100A09112 /* StarRealms1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRealms1Tests.swift; sourceTree = "<group>"; };
+		9181F4311C8A34C100A09112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05D405B1C8E1F2A0060E000 /* Star Realms Photos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Star Realms Photos"; path = "../../../../Volumes/NO NAME/Star Realms Photos"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9181F4141C8A34C100A09112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9181F4281C8A34C100A09112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9181F40E1C8A34C100A09112 = {
+			isa = PBXGroup;
+			children = (
+				D05D405B1C8E1F2A0060E000 /* Star Realms Photos */,
+				9162C8CF1C8CF1F400BCA08D /* battle blob.png */,
+				9162C8D01C8CF1F400BCA08D /* battle pod.jpg */,
+				9162C8D11C8CF1F400BCA08D /* blob ship.png */,
+				9162C8CD1C8CECCF00BCA08D /* vader copy.jpg */,
+				9162C8C11C8CEC1500BCA08D /* adam copy.jpg */,
+				9162C8C41C8CEC1500BCA08D /* chase copy.jpg */,
+				9162C8C51C8CEC1500BCA08D /* milky-way-1031138_960_720 copy.jpg */,
+				9162C8C61C8CEC1500BCA08D /* preston copy.jpg */,
+				9181F4191C8A34C100A09112 /* StarRealms1 */,
+				9181F42E1C8A34C100A09112 /* StarRealms1Tests */,
+				9181F4181C8A34C100A09112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9181F4181C8A34C100A09112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9181F4171C8A34C100A09112 /* StarRealms1.app */,
+				9181F42B1C8A34C100A09112 /* StarRealms1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9181F4191C8A34C100A09112 /* StarRealms1 */ = {
+			isa = PBXGroup;
+			children = (
+				9181F41A1C8A34C100A09112 /* AppDelegate.swift */,
+				9181F41C1C8A34C100A09112 /* ViewController.swift */,
+				9181F41E1C8A34C100A09112 /* Main.storyboard */,
+				9181F4211C8A34C100A09112 /* Assets.xcassets */,
+				9181F4231C8A34C100A09112 /* LaunchScreen.storyboard */,
+				9181F4261C8A34C100A09112 /* Info.plist */,
+			);
+			path = StarRealms1;
+			sourceTree = "<group>";
+		};
+		9181F42E1C8A34C100A09112 /* StarRealms1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9181F42F1C8A34C100A09112 /* StarRealms1Tests.swift */,
+				9181F4311C8A34C100A09112 /* Info.plist */,
+			);
+			path = StarRealms1Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9181F4161C8A34C100A09112 /* StarRealms1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9181F4341C8A34C100A09112 /* Build configuration list for PBXNativeTarget "StarRealms1" */;
+			buildPhases = (
+				9181F4131C8A34C100A09112 /* Sources */,
+				9181F4141C8A34C100A09112 /* Frameworks */,
+				9181F4151C8A34C100A09112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarRealms1;
+			productName = StarRealms1;
+			productReference = 9181F4171C8A34C100A09112 /* StarRealms1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9181F42A1C8A34C100A09112 /* StarRealms1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9181F4371C8A34C100A09112 /* Build configuration list for PBXNativeTarget "StarRealms1Tests" */;
+			buildPhases = (
+				9181F4271C8A34C100A09112 /* Sources */,
+				9181F4281C8A34C100A09112 /* Frameworks */,
+				9181F4291C8A34C100A09112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9181F42D1C8A34C100A09112 /* PBXTargetDependency */,
+			);
+			name = StarRealms1Tests;
+			productName = StarRealms1Tests;
+			productReference = 9181F42B1C8A34C100A09112 /* StarRealms1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9181F40F1C8A34C100A09112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Preston P Stephens";
+				TargetAttributes = {
+					9181F4161C8A34C100A09112 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9181F42A1C8A34C100A09112 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9181F4161C8A34C100A09112;
+					};
+				};
+			};
+			buildConfigurationList = 9181F4121C8A34C100A09112 /* Build configuration list for PBXProject "StarRealms1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9181F40E1C8A34C100A09112;
+			productRefGroup = 9181F4181C8A34C100A09112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9181F4161C8A34C100A09112 /* StarRealms1 */,
+				9181F42A1C8A34C100A09112 /* StarRealms1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9181F4151C8A34C100A09112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9181F4251C8A34C100A09112 /* LaunchScreen.storyboard in Resources */,
+				9162C8D21C8CF1F400BCA08D /* battle blob.png in Resources */,
+				9181F4221C8A34C100A09112 /* Assets.xcassets in Resources */,
+				9162C8CE1C8CECCF00BCA08D /* vader copy.jpg in Resources */,
+				9162C8D31C8CF1F400BCA08D /* battle pod.jpg in Resources */,
+				9162C8D41C8CF1F400BCA08D /* blob ship.png in Resources */,
+				9162C8CA1C8CEC1500BCA08D /* chase copy.jpg in Resources */,
+				9162C8CC1C8CEC1500BCA08D /* preston copy.jpg in Resources */,
+				9162C8C71C8CEC1500BCA08D /* adam copy.jpg in Resources */,
+				D05D405C1C8E1F2A0060E000 /* Star Realms Photos in Resources */,
+				9162C8CB1C8CEC1500BCA08D /* milky-way-1031138_960_720 copy.jpg in Resources */,
+				9181F4201C8A34C100A09112 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9181F4291C8A34C100A09112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9181F4131C8A34C100A09112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9181F41D1C8A34C100A09112 /* ViewController.swift in Sources */,
+				9181F41B1C8A34C100A09112 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9181F4271C8A34C100A09112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9181F4301C8A34C100A09112 /* StarRealms1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9181F42D1C8A34C100A09112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9181F4161C8A34C100A09112 /* StarRealms1 */;
+			targetProxy = 9181F42C1C8A34C100A09112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9181F41E1C8A34C100A09112 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9181F41F1C8A34C100A09112 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9181F4231C8A34C100A09112 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9181F4241C8A34C100A09112 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9181F4321C8A34C100A09112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9181F4331C8A34C100A09112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9181F4351C8A34C100A09112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarRealms1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Whitworth.StarRealms1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9181F4361C8A34C100A09112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarRealms1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Whitworth.StarRealms1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9181F4381C8A34C100A09112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarRealms1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Whitworth.StarRealms1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarRealms1.app/StarRealms1";
+			};
+			name = Debug;
+		};
+		9181F4391C8A34C100A09112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarRealms1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Whitworth.StarRealms1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarRealms1.app/StarRealms1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9181F4121C8A34C100A09112 /* Build configuration list for PBXProject "StarRealms1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9181F4321C8A34C100A09112 /* Debug */,
+				9181F4331C8A34C100A09112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9181F4341C8A34C100A09112 /* Build configuration list for PBXNativeTarget "StarRealms1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9181F4351C8A34C100A09112 /* Debug */,
+				9181F4361C8A34C100A09112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9181F4371C8A34C100A09112 /* Build configuration list for PBXNativeTarget "StarRealms1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9181F4381C8A34C100A09112 /* Debug */,
+				9181F4391C8A34C100A09112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9181F40F1C8A34C100A09112 /* Project object */;
+}

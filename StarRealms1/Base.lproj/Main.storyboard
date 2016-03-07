@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--learnToPlay-->
+        <scene sceneID="Hep-PG-kZD">
+            <objects>
+                <viewController title="learnToPlay" id="KfO-zS-1KG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Ic-7Y-NSZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="SCd-R8-zpC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kgf-VI-J6T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nax-J7-9S0">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Add description here." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mDE-ie-ZzT">
+                                <rect key="frame" x="20" y="186" width="560" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mT2-LX-WnI">
+                                <rect key="frame" x="20" y="40" width="139" height="41"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Learn to Play">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.81233836209999999" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yia-3P-Hcn">
+                                <rect key="frame" x="546" y="46" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="bqy-zO-Nyk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mDE-ie-ZzT" firstAttribute="leading" secondItem="Kgf-VI-J6T" secondAttribute="leadingMargin" id="45k-kS-D3F"/>
+                            <constraint firstItem="mDE-ie-ZzT" firstAttribute="trailing" secondItem="Kgf-VI-J6T" secondAttribute="trailingMargin" id="6eS-Gy-g0b"/>
+                            <constraint firstItem="Yia-3P-Hcn" firstAttribute="trailing" secondItem="Kgf-VI-J6T" secondAttribute="trailingMargin" id="7N5-l9-6Dh"/>
+                            <constraint firstItem="mDE-ie-ZzT" firstAttribute="top" secondItem="Yia-3P-Hcn" secondAttribute="bottom" constant="81" id="E53-3X-aMO"/>
+                            <constraint firstItem="mT2-LX-WnI" firstAttribute="leading" secondItem="Kgf-VI-J6T" secondAttribute="leadingMargin" id="Vao-tr-gMy"/>
+                            <constraint firstItem="SCd-R8-zpC" firstAttribute="top" secondItem="mDE-ie-ZzT" secondAttribute="bottom" constant="286" id="imK-aF-xIN"/>
+                            <constraint firstItem="Yia-3P-Hcn" firstAttribute="trailing" secondItem="Kgf-VI-J6T" secondAttribute="trailingMargin" id="mEZ-bJ-fQE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TUd-Tw-5Xq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-309" y="426"/>
+        </scene>
+        <!--Cards - Unaligned-->
+        <scene sceneID="yD8-Ui-XVB">
+            <objects>
+                <viewController title="Cards - Unaligned" id="iXK-2y-gY9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hax-sZ-WJb"/>
+                        <viewControllerLayoutGuide type="bottom" id="8LE-63-PyC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YVC-iA-kmR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tBw-Ps-IfR">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS6-xr-6tq">
+                                <rect key="frame" x="237" y="28" width="127" height="35"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Unaligned">
+                                    <color key="titleColor" red="0.72156862749999995" green="0.56078431370000004" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhJ-cT-acN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-948" y="1094"/>
+        </scene>
+        <!--viewCards-->
+        <scene sceneID="btd-ut-lEI">
+            <objects>
+                <viewController title="viewCards" id="ymv-Ax-sz9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qbl-e3-qiw"/>
+                        <viewControllerLayoutGuide type="bottom" id="vKb-s8-e4T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PNV-gV-Tzj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dy7-fM-qOP">
+                                <rect key="frame" x="546" y="74" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="U7v-WZ-b4s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62w-Tg-2nc">
+                                <rect key="frame" x="20" y="68" width="122" height="41"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="View Cards">
+                                    <color key="titleColor" red="0.72156862745098038" green="0.5607843137254902" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search for Cards" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nxU-Sz-0se">
+                                <rect key="frame" x="20" y="28" width="560" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h00-Qv-YD1">
+                                <rect key="frame" x="46" y="130" width="70" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Unaligned"/>
+                                <connections>
+                                    <segue destination="iXK-2y-gY9" kind="showDetail" id="utv-xB-oyM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDh-EP-eOc">
+                                <rect key="frame" x="66" y="168" width="31" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Blob"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZE-pn-gLz">
+                                <rect key="frame" x="23" y="206" width="117" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Trade Federation"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsw-1T-LkK">
+                                <rect key="frame" x="36" y="244" width="90" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Machine Cult"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIZ-IL-bzG">
+                                <rect key="frame" x="41" y="282" width="80" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Star Empire"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4Ci-1q-erR">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dy7-fM-qOP" firstAttribute="trailing" secondItem="PNV-gV-Tzj" secondAttribute="trailingMargin" id="Jag-OP-BMr"/>
+                            <constraint firstItem="nxU-Sz-0se" firstAttribute="trailing" secondItem="PNV-gV-Tzj" secondAttribute="trailingMargin" id="Sd5-Tv-mgB"/>
+                            <constraint firstItem="nxU-Sz-0se" firstAttribute="leading" secondItem="PNV-gV-Tzj" secondAttribute="leadingMargin" id="qxT-CT-g9e"/>
+                            <constraint firstItem="62w-Tg-2nc" firstAttribute="leading" secondItem="PNV-gV-Tzj" secondAttribute="leadingMargin" id="xET-ju-JYZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MtG-R1-3va" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-309" y="1094"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Main" id="BYZ-38-t0r" customClass="ViewController" customModule="StarRealms1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3bT-oh-CqX">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGe-KZ-Nsg">
+                                <rect key="frame" x="20" y="399" width="560" height="41"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HdB-Gu-iSS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Learn to Play">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KfO-zS-1KG" kind="show" id="M0c-lk-Xx7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPb-cR-58P">
+                                <rect key="frame" x="20" y="285" width="560" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UN4-jp-PaV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="View Cards">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ymv-Ax-sz9" kind="show" id="AXf-9E-i5n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHj-58-T1y">
+                                <rect key="frame" x="20" y="225" width="560" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0NK-jk-2xV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Play in Tournament">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wo5-Tv-3rb" kind="show" id="toX-w7-pQm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8q-CP-EUF">
+                                <rect key="frame" x="20" y="165" width="560" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BqT-PB-QUz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Play vs Friends">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xVX-hu-JJ9" kind="show" id="k7N-UJ-oGG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptU-EU-f3i">
+                                <rect key="frame" x="20" y="458" width="560" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="qST-7C-VGs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DQn-56-03f" kind="show" id="YD4-td-skg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9T-LG-gKD">
+                                <rect key="frame" x="20" y="71" width="560" height="54"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Star Realms">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.81233836209999999" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ptU-EU-f3i" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2YU-QR-Hhb"/>
+                            <constraint firstItem="HGe-KZ-Nsg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="6R8-HR-Dnj"/>
+                            <constraint firstItem="3bT-oh-CqX" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="6sG-ap-R4i"/>
+                            <constraint firstItem="aHj-58-T1y" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="71X-5m-Bwh"/>
+                            <constraint firstItem="aHj-58-T1y" firstAttribute="top" secondItem="m8q-CP-EUF" secondAttribute="bottom" constant="30" id="9pR-JE-zSS"/>
+                            <constraint firstItem="HGe-KZ-Nsg" firstAttribute="top" secondItem="ptU-EU-f3i" secondAttribute="bottom" constant="30" id="Ctr-VS-meF"/>
+                            <constraint firstItem="m8q-CP-EUF" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="DA2-4i-CB9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HGe-KZ-Nsg" secondAttribute="bottom" constant="165" id="JO5-wk-J0m"/>
+                            <constraint firstItem="ZPb-cR-58P" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PUd-Cm-GDd"/>
+                            <constraint firstItem="aHj-58-T1y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Pk5-by-CdY"/>
+                            <constraint firstItem="ZPb-cR-58P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Rv1-UN-xnO"/>
+                            <constraint firstItem="3bT-oh-CqX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SsZ-vq-9Zj"/>
+                            <constraint firstItem="t9T-LG-gKD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ToO-h7-3Uy"/>
+                            <constraint firstItem="t9T-LG-gKD" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="UwX-jx-H6v"/>
+                            <constraint firstItem="ZPb-cR-58P" firstAttribute="top" secondItem="aHj-58-T1y" secondAttribute="bottom" constant="30" id="WBI-Xt-1WD"/>
+                            <constraint firstItem="3bT-oh-CqX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="XKY-eq-cRR"/>
+                            <constraint firstItem="HGe-KZ-Nsg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aFk-jc-7q6"/>
+                            <constraint firstItem="ptU-EU-f3i" firstAttribute="top" secondItem="ZPb-cR-58P" secondAttribute="bottom" constant="30" id="iCs-uN-k7L"/>
+                            <constraint firstItem="m8q-CP-EUF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tpu-Xq-4oX"/>
+                            <constraint firstItem="ptU-EU-f3i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yL5-1V-QtA"/>
+                            <constraint firstItem="HGe-KZ-Nsg" firstAttribute="centerX" secondItem="3bT-oh-CqX" secondAttribute="centerX" id="zBL-9e-EBf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="418"/>
+        </scene>
+        <!--playVsFriends-->
+        <scene sceneID="V2v-KI-TUG">
+            <objects>
+                <viewController title="playVsFriends" id="xVX-hu-JJ9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y0i-PE-j5y"/>
+                        <viewControllerLayoutGuide type="bottom" id="B0S-P5-DVd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PMp-wB-svN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="675"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eoQ-Su-lbM">
+                                <rect key="frame" x="0.0" y="20" width="600" height="655"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsn-YB-gp4">
+                                <rect key="frame" x="546" y="56" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="XU0-bR-m0u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaX-KR-xLG">
+                                <rect key="frame" x="20" y="50" width="163" height="41"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Play Vs Friends">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.81233836206896548" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adam copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Msc-CR-fsZ">
+                                <rect key="frame" x="20" y="172" width="128" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chase copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nW5-ED-n2k">
+                                <rect key="frame" x="20" y="356" width="128" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7t-lY-qhE">
+                                <rect key="frame" x="170" y="396" width="134" height="48"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Challenge">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SJS-rm-Muv" kind="showDetail" id="0oE-7r-NBE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMd-4u-YWJ">
+                                <rect key="frame" x="156" y="211" width="148" height="62"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Challenge">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SJS-rm-Muv" kind="showDetail" id="MQ5-lV-33y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUy-qT-ey2">
+                                <rect key="frame" x="170" y="552" width="134" height="48"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Challenge">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SJS-rm-Muv" kind="showDetail" id="Wl1-oI-aYg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckK-eS-fVV">
+                                <rect key="frame" x="64" y="134" width="40" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Adam">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyR-4j-zBI">
+                                <rect key="frame" x="59" y="318" width="44" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Chase">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9O-rX-nZo">
+                                <rect key="frame" x="60" y="492" width="40" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Vader">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoU-kH-nb7">
+                                <rect key="frame" x="20" y="99" width="560" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Play Vs Random Opponent">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="vader copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hGk-WD-Opk">
+                                <rect key="frame" x="20" y="527" width="128" height="128"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="DhQ-BM-95v"/>
+                                    <constraint firstAttribute="width" constant="128" id="n56-Eg-D4c"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EoU-kH-nb7" firstAttribute="trailing" secondItem="PMp-wB-svN" secondAttribute="trailingMargin" id="QFj-zM-kRF"/>
+                            <constraint firstItem="bsn-YB-gp4" firstAttribute="trailing" secondItem="PMp-wB-svN" secondAttribute="trailingMargin" id="XWy-KU-Fie"/>
+                            <constraint firstItem="hGk-WD-Opk" firstAttribute="leading" secondItem="PMp-wB-svN" secondAttribute="leadingMargin" id="aTY-UQ-oyr"/>
+                            <constraint firstItem="WaX-KR-xLG" firstAttribute="leading" secondItem="PMp-wB-svN" secondAttribute="leadingMargin" id="cCf-OH-bIN"/>
+                            <constraint firstItem="EoU-kH-nb7" firstAttribute="leading" secondItem="PMp-wB-svN" secondAttribute="leadingMargin" id="wd6-AU-YXl"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="675"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vkQ-qb-kW4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="417.5"/>
+        </scene>
+        <!--Play-->
+        <scene sceneID="dpp-QC-nuf">
+            <objects>
+                <viewController title="Play" id="SJS-rm-Muv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OeZ-gA-1sM"/>
+                        <viewControllerLayoutGuide type="bottom" id="zdd-Ar-n6v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kXN-JC-3l6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Cth-HI-z27">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wxj-0c-myv">
+                                <rect key="frame" x="542" y="56" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Quit"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="Ape-Sf-ItC"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Jk-9z-jQn">
+                                <rect key="frame" x="20" y="121" width="250" height="75"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LUe-If-frZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rkk-mH-Qs7">
+                                        <rect key="frame" x="50" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2yz-w8-VQo">
+                                        <rect key="frame" x="100" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkr-ST-5hP">
+                                        <rect key="frame" x="150" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hD5-4v-BDC">
+                                        <rect key="frame" x="200" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nxg-QY-vNw">
+                                <rect key="frame" x="20" y="357" width="250" height="75"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fIK-k5-YV6">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ub-gv-hAT">
+                                        <rect key="frame" x="50" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yTj-BI-jRI">
+                                        <rect key="frame" x="100" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6N8-bO-KMs">
+                                        <rect key="frame" x="150" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NtJ-dS-WnR">
+                                        <rect key="frame" x="200" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rph-Nj-dRs">
+                                <rect key="frame" x="20" y="240" width="250" height="75"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AKD-Hc-uDd">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ADz-1P-NFu">
+                                        <rect key="frame" x="50" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ey8-Fs-VTk">
+                                        <rect key="frame" x="100" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7PA-1T-tPw">
+                                        <rect key="frame" x="150" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aF1-cc-YM0">
+                                        <rect key="frame" x="200" y="0.0" width="50" height="75"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9BD-pW-eO0">
+                                <rect key="frame" x="123" y="480" width="50" height="75"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yf3-qL-Ai2">
+                                <rect key="frame" x="101" y="74" width="73" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Trade Row">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1u2-mB-Ri5">
+                                <rect key="frame" x="103" y="202" width="68" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Your Field">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3s-aF-H2C">
+                                <rect key="frame" x="101" y="323" width="72" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Your Hand">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkN-eU-nBx">
+                                <rect key="frame" x="108" y="440" width="81" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Discard Pile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wxj-0c-myv" secondAttribute="trailing" id="75l-G1-cWz"/>
+                            <constraint firstItem="0Jk-9z-jQn" firstAttribute="leading" secondItem="kXN-JC-3l6" secondAttribute="leadingMargin" id="Dup-DI-x4u"/>
+                            <constraint firstItem="Rph-Nj-dRs" firstAttribute="leading" secondItem="kXN-JC-3l6" secondAttribute="leadingMargin" id="HEj-Mi-67G"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MaD-yC-cj2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1555" y="380"/>
+        </scene>
+        <!--playInTournament-->
+        <scene sceneID="FaR-XA-WHy">
+            <objects>
+                <viewController title="playInTournament" id="wo5-Tv-3rb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G2N-6h-Nra"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nvz-9u-gPf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Pe-UJ-gOd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ddD-IY-hiX">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCc-w7-jzj">
+                                <rect key="frame" x="546" y="70" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="hFf-qh-REp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyI-79-hYk">
+                                <rect key="frame" x="52" y="64" width="140" height="41"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Tournaments">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.81233836209999999" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dl2-my-P1C">
+                                <rect key="frame" x="52" y="166" width="528" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Tournament 1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4w-oF-OQW">
+                                <rect key="frame" x="52" y="282" width="528" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Tournament 2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qb6-g5-jjQ">
+                                <rect key="frame" x="52" y="406" width="528" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Tournament 3">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Up-ri-mYg">
+                                <rect key="frame" x="52" y="201" width="528" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="1 Spot Remaining">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHD-Vk-4bt">
+                                <rect key="frame" x="52" y="316" width="528" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="4 Spots Remaining">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLB-Eb-pQE">
+                                <rect key="frame" x="52" y="238" width="528" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Join"/>
+                                <connections>
+                                    <segue destination="SJS-rm-Muv" kind="showDetail" id="bB4-FG-beT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhA-O5-Td2">
+                                <rect key="frame" x="52" y="345" width="528" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Join"/>
+                                <connections>
+                                    <segue destination="SJS-rm-Muv" kind="showDetail" id="eny-hg-hlm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfv-V3-ZfG">
+                                <rect key="frame" x="52" y="485" width="528" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Join"/>
+                                <connections>
+                                    <segue destination="SJS-rm-Muv" kind="showDetail" id="JmX-ih-gfy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0C-hs-POZ">
+                                <rect key="frame" x="52" y="450" width="528" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="6 Spots Remaining">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y0C-hs-POZ" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="0Aa-yB-x9I"/>
+                            <constraint firstItem="Y0C-hs-POZ" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="3dP-St-SYS"/>
+                            <constraint firstItem="k4w-oF-OQW" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="3sK-kx-POn"/>
+                            <constraint firstItem="Sfv-V3-ZfG" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="82V-0O-ezI"/>
+                            <constraint firstItem="5Up-ri-mYg" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="GoE-X6-0vE"/>
+                            <constraint firstItem="tLB-Eb-pQE" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="GrU-FC-qjm"/>
+                            <constraint firstItem="k4w-oF-OQW" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="H3J-01-aIf"/>
+                            <constraint firstItem="Qb6-g5-jjQ" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="Qyw-wW-erg"/>
+                            <constraint firstItem="rCc-w7-jzj" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="RBG-JV-Is5"/>
+                            <constraint firstItem="nHD-Vk-4bt" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="SSW-Pc-ahU"/>
+                            <constraint firstItem="WhA-O5-Td2" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="Snz-sV-LDb"/>
+                            <constraint firstItem="WhA-O5-Td2" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="V3R-91-WH2"/>
+                            <constraint firstItem="5Up-ri-mYg" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="WEK-0v-8Te"/>
+                            <constraint firstItem="Qb6-g5-jjQ" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="XA1-zR-K8h"/>
+                            <constraint firstItem="dl2-my-P1C" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="btl-b4-8qL"/>
+                            <constraint firstItem="nHD-Vk-4bt" firstAttribute="trailing" secondItem="1Pe-UJ-gOd" secondAttribute="trailingMargin" id="hiY-EY-RFY"/>
+                            <constraint firstItem="RyI-79-hYk" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="oqp-Sk-Uw9"/>
+                            <constraint firstItem="Sfv-V3-ZfG" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="qMf-1o-r0X"/>
+                            <constraint firstItem="tLB-Eb-pQE" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="vAq-eo-ZpV"/>
+                            <constraint firstItem="dl2-my-P1C" firstAttribute="leading" secondItem="1Pe-UJ-gOd" secondAttribute="leadingMargin" id="xhl-as-PHi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2AA-n6-WGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954" y="1094"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="9UE-fz-acz">
+            <objects>
+                <viewController title="Profile" id="DQn-56-03f" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lfx-Q3-e3H"/>
+                        <viewControllerLayoutGuide type="bottom" id="LQT-ai-0Bn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4HV-mi-Jkt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fY9-BM-tZ6">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOE-0E-Ulx">
+                                <rect key="frame" x="546" y="83" width="34" height="30"/>
+                                <animations/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="HBK-a1-IES"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxI-zD-5ax">
+                                <rect key="frame" x="20" y="77" width="82" height="41"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Preston">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="0.81233836209999999" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="preston copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="M5y-Yj-YtK">
+                                <rect key="frame" x="20" y="126" width="128" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Rank: 1                 Wins: 256              Loses: 5                 Tournament Wins: 26                              " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="11J-f7-grK">
+                                <rect key="frame" x="20" y="311" width="180" height="128"/>
+                                <animations/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search For Friends" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9gJ-J1-9W4">
+                                <rect key="frame" x="20" y="28" width="560" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FxI-zD-5ax" firstAttribute="leading" secondItem="4HV-mi-Jkt" secondAttribute="leadingMargin" id="4Rb-Nr-VTX"/>
+                            <constraint firstItem="9gJ-J1-9W4" firstAttribute="leading" secondItem="4HV-mi-Jkt" secondAttribute="leadingMargin" id="Dsf-na-Sye"/>
+                            <constraint firstItem="9gJ-J1-9W4" firstAttribute="trailing" secondItem="4HV-mi-Jkt" secondAttribute="trailingMargin" id="ZXm-BB-Znh"/>
+                            <constraint firstItem="ZOE-0E-Ulx" firstAttribute="trailing" secondItem="4HV-mi-Jkt" secondAttribute="trailingMargin" id="d7z-CA-7nP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JTL-K3-uXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="1089"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="adam copy.jpg" width="960" height="960"/>
+        <image name="chase copy.jpg" width="526" height="526"/>
+        <image name="milky-way-1031138_960_720 copy.jpg" width="638" height="960"/>
+        <image name="preston copy.jpg" width="960" height="960"/>
+        <image name="vader copy.jpg" width="2048" height="1365"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="U7v-WZ-b4s"/>
+        <segue reference="eny-hg-hlm"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</document>
