@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,15 +15,41 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Star Realms Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="qqX-kn-g4l">
+                                <rect key="frame" x="112" y="268" width="200" height="200"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qqX-kn-g4l" secondAttribute="height" multiplier="1:1" id="TcE-iH-1IJ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="milky-way-1031138_960_720 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O1y-63-fcU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="O1y-63-fcU" secondAttribute="height" multiplier="9:16" id="3DN-In-w8W"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qqX-kn-g4l" firstAttribute="leading" secondItem="O1y-63-fcU" secondAttribute="trailing" constant="-302" id="CUV-QB-1wi"/>
+                            <constraint firstItem="qqX-kn-g4l" firstAttribute="top" secondItem="O1y-63-fcU" secondAttribute="bottom" constant="-468" id="Dvr-UA-b3G"/>
+                        </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="736"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="62" y="332"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Star Realms Logo.png" width="251" height="280"/>
+        <image name="milky-way-1031138_960_720 copy.jpg" width="638" height="960"/>
+    </resources>
 </document>

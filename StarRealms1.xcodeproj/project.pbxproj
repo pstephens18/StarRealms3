@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		577F41A81C93623400E0B03F /* Star Realms Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 577F41A71C93623400E0B03F /* Star Realms Logo.png */; };
 		9162C8C71C8CEC1500BCA08D /* adam copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8C11C8CEC1500BCA08D /* adam copy.jpg */; };
 		9162C8CA1C8CEC1500BCA08D /* chase copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8C41C8CEC1500BCA08D /* chase copy.jpg */; };
 		9162C8CB1C8CEC1500BCA08D /* milky-way-1031138_960_720 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9162C8C51C8CEC1500BCA08D /* milky-way-1031138_960_720 copy.jpg */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		577F41A71C93623400E0B03F /* Star Realms Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star Realms Logo.png"; sourceTree = "<group>"; };
 		9162C8C11C8CEC1500BCA08D /* adam copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "adam copy.jpg"; path = "StarRealms1/adam copy.jpg"; sourceTree = "<group>"; };
 		9162C8C41C8CEC1500BCA08D /* chase copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chase copy.jpg"; path = "StarRealms1/chase copy.jpg"; sourceTree = "<group>"; };
 		9162C8C51C8CEC1500BCA08D /* milky-way-1031138_960_720 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "milky-way-1031138_960_720 copy.jpg"; path = "StarRealms1/milky-way-1031138_960_720 copy.jpg"; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				D05D405B1C8E1F2A0060E000 /* Star Realms Photos */,
 				9162C8CF1C8CF1F400BCA08D /* battle blob.png */,
 				9162C8D01C8CF1F400BCA08D /* battle pod.jpg */,
+				577F41A71C93623400E0B03F /* Star Realms Logo.png */,
 				9162C8D11C8CF1F400BCA08D /* blob ship.png */,
 				9162C8CD1C8CECCF00BCA08D /* vader copy.jpg */,
 				9162C8C11C8CEC1500BCA08D /* adam copy.jpg */,
@@ -210,6 +213,7 @@
 				9162C8CE1C8CECCF00BCA08D /* vader copy.jpg in Resources */,
 				9162C8D31C8CF1F400BCA08D /* battle pod.jpg in Resources */,
 				9162C8D41C8CF1F400BCA08D /* blob ship.png in Resources */,
+				577F41A81C93623400E0B03F /* Star Realms Logo.png in Resources */,
 				9162C8CA1C8CEC1500BCA08D /* chase copy.jpg in Resources */,
 				9162C8CC1C8CEC1500BCA08D /* preston copy.jpg in Resources */,
 				9162C8C71C8CEC1500BCA08D /* adam copy.jpg in Resources */,

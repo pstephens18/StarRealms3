@@ -746,7 +746,7 @@
         <!--Profile-->
         <scene sceneID="9UE-fz-acz">
             <objects>
-                <viewController title="Profile" id="DQn-56-03f" sceneMemberID="viewController">
+                <viewController title="Profile" id="DQn-56-03f" customClass="ViewController" customModule="StarRealms1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lfx-Q3-e3H"/>
                         <viewControllerLayoutGuide type="bottom" id="LQT-ai-0Bn"/>
@@ -796,6 +796,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVj-GI-QYi">
+                                <rect key="frame" x="174" y="149" width="50" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJb-5P-fvE">
+                                <rect key="frame" x="232" y="149" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -806,6 +819,9 @@
                             <constraint firstItem="ZOE-0E-Ulx" firstAttribute="trailing" secondItem="4HV-mi-Jkt" secondAttribute="trailingMargin" id="d7z-CA-7nP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="SearchBar" destination="9gJ-J1-9W4" id="i5S-o3-A7b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JTL-K3-uXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -820,7 +836,7 @@
         <image name="vader copy.jpg" width="2048" height="1365"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="U7v-WZ-b4s"/>
+        <segue reference="HBK-a1-IES"/>
         <segue reference="eny-hg-hlm"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
